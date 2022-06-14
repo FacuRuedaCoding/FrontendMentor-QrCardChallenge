@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+
+.conteiner {
+  max-width: 360px;
+  margin: 0 auto; }
+  .conteiner .card {
+    background-color: white;
+    padding: 18px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px 1em; }
+    .conteiner .card img {
+      width: 100%;
+      border-radius: 12px; }
+    .conteiner .card .title {
+      padding: 22px 10px; }
+      .conteiner .card .title h2 {
+        color: #1f3251;
+        padding-bottom: 15px; }
+      .conteiner .card .title p {
+        color: #7b879d; }

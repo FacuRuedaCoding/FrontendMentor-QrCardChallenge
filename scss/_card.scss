@@ -1,0 +1,27 @@
+.conteiner{
+    max-width: 360px;
+    margin: 0 auto;
+
+    .card{
+        background-color: $White;
+        padding: 18px;
+        border-radius: 17px;
+        text-align: center;
+        margin: 20px 1em;
+            
+        img{
+            width: 100%;
+            border-radius: 12px;
+        }
+        .title{
+            padding: 22px 10px;
+            h2{
+                color: $Dark-blue;
+                padding-bottom: 15px;
+            }
+            p{
+                color: $Grayish-blue;   
+            }
+        }
+    }
+}
